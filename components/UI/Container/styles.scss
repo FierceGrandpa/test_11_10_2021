@@ -1,0 +1,19 @@
+// Container
+//
+
+.container {
+  overflow: hidden;
+
+  height: 100%;
+
+  padding: 0 16px; margin: 0 auto;
+}
+
+// Media
+.container {
+  max-width: calc(100% - (308% / 19.2));
+
+  @media (max-width: 767px) {
+    max-width: none;
+  }
+}
